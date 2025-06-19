@@ -10,16 +10,16 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
                <div className="container mx-auto flex h-20 items-center justify-between px-4">
-                <div className="h-20 w-auto flex items-center pr-4">
-                  <Image
-                    src="/images/logo-kt.png"
-                    alt="Kohistan Traders Logo"
-                    width={100}
-                    height={100}
-                    className="object-contain max-h-16"
-                    priority
-                  />
-                </div>
+              <div className="flex items-center pr-4">
+              <Image
+                src="/images/logo-kt.png"
+                 alt="Kohistan Traders Logo"
+                   width={160}
+                    height={160}
+                  className="object-contain w-[140px] h-auto"
+                  priority
+  />
+</div>
 
             {/* <div>
                 <span className="text-2xl font-bold text-white">Kohistan</span>
