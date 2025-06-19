@@ -9,15 +9,18 @@ export default function Footer() {
         <div className="grid gap-8 lg:grid-cols-4 md:grid-cols-2">
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="h-12 w-12 relative">
-                <Image
-                  src="/images/logo-kt.png"
-                  alt="Kohistan Traders Logo"
-                  width={48}
-                  height={48}
-                  className="h-full w-full object-contain"
-                />
-              </div>
+               <div className="container mx-auto flex h-20 items-center justify-between px-4">
+                <div className="h-20 w-auto flex items-center pr-4">
+                  <Image
+                    src="/images/logo-kt.png"
+                    alt="Kohistan Traders Logo"
+                    width={100}
+                    height={100}
+                    className="object-contain max-h-16"
+                    priority
+                  />
+                </div>
+
             {/* <div>
                 <span className="text-2xl font-bold text-white">Kohistan</span>
                 <span className="block text-sm text-primary-300 -mt-1">TRADERS</span>
