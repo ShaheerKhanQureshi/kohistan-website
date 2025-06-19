@@ -245,14 +245,14 @@ export default function Header() {
           <Link href="/" className="flex items-center">
             <div className="flex items-center space-x-3">
               <div className="h-16 w-auto flex items-center">
-                <Image
-                  src="/images/logo-kt.png"
-                  alt="Kohistan Traders Logo"
-                  width={400}
-                  height={400}
-                  className="object-contain max-h-16 lg:max-h-[72px]"
-                  priority
-                />
+              <Image
+  src="/images/logo-kt.png"
+  alt="Kohistan Traders Logo"
+  width={200}
+  height={200}
+  className="object-contain"
+  priority
+/>
               </div>
             </div>
           </Link>
