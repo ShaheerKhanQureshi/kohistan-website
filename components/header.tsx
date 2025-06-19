@@ -248,8 +248,8 @@ export default function Header() {
                 <Image
                   src="/images/logo-kt.png"
                   alt="Kohistan Traders Logo"
-                  width={150}
-                  height={150}
+                  width={400}
+                  height={400}
                   className="object-contain max-h-16 lg:max-h-[72px]"
                   priority
                 />
