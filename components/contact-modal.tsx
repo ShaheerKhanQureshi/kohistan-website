@@ -87,93 +87,86 @@ export default function ContactModal({ isOpen, onClose }: ContactModalProps) {
               </div>
             </div>
 
-            {/* Team Contacts */}
-            <div>
-              <h3 className="heading-sm text-brown-900 mb-6">Our Team</h3>
-              <div className="space-y-4">
-                <div className="p-4 rounded-xl border border-brown-200 card-premium">
-                  <div className="flex items-center mb-3">
-                    <div className="h-12 w-12 bg-brown-200 rounded-full mr-3 overflow-hidden">
-                      <Image
-                        src="/placeholder.svg?height=48&width=48"
-                        alt="Sheraz Khan Qureshi"
-                        width={48}
-                        height={48}
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-brown-900 font-display">Sheraz Khan Qureshi</h4>
-                      <p className="text-sm text-primary font-sans">Founder & Owner</p>
-                    </div>
-                  </div>
-                  <Link href="https://wa.me/923003712954" target="_blank" rel="noopener noreferrer">
-                    <Button
-                      size="sm"
-                      className="w-full bg-primary hover:bg-primary-600 text-white rounded-full font-sans"
-                    >
-                      <MessageSquare className="h-4 w-4 mr-2" />
-                      WhatsApp: 0300-3712954
-                    </Button>
-                  </Link>
-                </div>
+          {/* Team Contacts */}
+<div>
+  <h3 className="heading-sm text-brown-900 mb-6">Our Team</h3>
+  <div className="space-y-4">
+    {/* Sheraz */}
+    <div className="p-4 rounded-xl border border-brown-200 card-premium">
+      <div className="flex items-center mb-3">
+        <div className="h-12 w-12 bg-brown-200 rounded-full mr-3 overflow-hidden">
+          <Image
+            src="/images/team/sheraz-khan.jpg"
+            alt="Sheraz Khan Qureshi"
+            width={48}
+            height={48}
+            className="h-full w-full object-cover"
+          />
+        </div>
+        <div>
+          <h4 className="font-semibold text-brown-900 font-display">Sheraz Khan Qureshi</h4>
+          <p className="text-sm text-primary font-sans">Founder & Owner</p>
+        </div>
+      </div>
+      <Link href="https://wa.me/923003712954" target="_blank" rel="noopener noreferrer">
+        <Button size="sm" className="w-full bg-primary hover:bg-primary-600 text-white rounded-full font-sans">
+          <MessageSquare className="h-4 w-4 mr-2" />
+          WhatsApp: 0300-3712954
+        </Button>
+      </Link>
+    </div>
 
-                <div className="p-4 rounded-xl border border-brown-200 card-premium">
-                  <div className="flex items-center mb-3">
-                    <div className="h-12 w-12 bg-brown-200 rounded-full mr-3 overflow-hidden">
-                      <Image
-                        src="/placeholder.svg?height=48&width=48"
-                        alt="Shaheer Khan Qureshi"
-                        width={48}
-                        height={48}
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-brown-900 font-display">Shaheer Khan Qureshi</h4>
-                      <p className="text-sm text-primary font-sans">Managing Director</p>
-                    </div>
-                  </div>
-                  <Link href="https://wa.me/923432603163" target="_blank" rel="noopener noreferrer">
-                    <Button
-                      size="sm"
-                      className="w-full bg-primary hover:bg-primary-600 text-white rounded-full font-sans"
-                    >
-                      <MessageSquare className="h-4 w-4 mr-2" />
-                      WhatsApp: 0343-2603163
-                    </Button>
-                  </Link>
-                </div>
+    {/* Shaheer */}
+    <div className="p-4 rounded-xl border border-brown-200 card-premium">
+      <div className="flex items-center mb-3">
+        <div className="h-12 w-12 bg-brown-200 rounded-full mr-3 overflow-hidden">
+          <Image
+            src="/images/team/shaheer-khan.jpg"
+            alt="Shaheer Khan Qureshi"
+            width={48}
+            height={48}
+            className="h-full w-full object-cover"
+          />
+        </div>
+        <div>
+          <h4 className="font-semibold text-brown-900 font-display">Shaheer Khan Qureshi</h4>
+          <p className="text-sm text-primary font-sans">Managing Director</p>
+        </div>
+      </div>
+      <Link href="https://wa.me/923432603163" target="_blank" rel="noopener noreferrer">
+        <Button size="sm" className="w-full bg-primary hover:bg-primary-600 text-white rounded-full font-sans">
+          <MessageSquare className="h-4 w-4 mr-2" />
+          WhatsApp: 0343-2603163
+        </Button>
+      </Link>
+    </div>
 
-                <div className="p-4 rounded-xl border border-brown-200 card-premium">
-                  <div className="flex items-center mb-3">
-                    <div className="h-12 w-12 bg-brown-200 rounded-full mr-3 overflow-hidden">
-                      <Image
-                        src="/placeholder.svg?height=48&width=48"
-                        alt="Shahmeer Khan Qureshi"
-                        width={48}
-                        height={48}
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-brown-900 font-display">Shahmeer Khan Qureshi</h4>
-                      <p className="text-sm text-primary font-sans">Head of Operations</p>
-                    </div>
-                  </div>
-                  <Link href="https://wa.me/923150029547" target="_blank" rel="noopener noreferrer">
-                    <Button
-                      size="sm"
-                      className="w-full bg-primary hover:bg-primary-600 text-white rounded-full font-sans"
-                    >
-                      <MessageSquare className="h-4 w-4 mr-2" />
-                      WhatsApp: 0315-0029547
-                    </Button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
+    {/* Shahmeer */}
+    <div className="p-4 rounded-xl border border-brown-200 card-premium">
+      <div className="flex items-center mb-3">
+        <div className="h-12 w-12 bg-brown-200 rounded-full mr-3 overflow-hidden">
+          <Image
+            src="/images/team/shahmeer-khan.jpg"
+            alt="Shahmeer Khan Qureshi"
+            width={48}
+            height={48}
+            className="h-full w-full object-cover"
+          />
+        </div>
+        <div>
+          <h4 className="font-semibold text-brown-900 font-display">Shahmeer Khan Qureshi</h4>
+          <p className="text-sm text-primary font-sans">Head of Operations</p>
+        </div>
+      </div>
+      <Link href="https://wa.me/923150029547" target="_blank" rel="noopener noreferrer">
+        <Button size="sm" className="w-full bg-primary hover:bg-primary-600 text-white rounded-full font-sans">
+          <MessageSquare className="h-4 w-4 mr-2" />
+          WhatsApp: 0315-0029547
+        </Button>
+      </Link>
+    </div>
+  </div>
+</div>
 
           <div className="mt-8 p-6 rounded-xl bg-gradient-to-r from-brown-50 to-brown-100">
             <div className="flex items-center mb-4">
